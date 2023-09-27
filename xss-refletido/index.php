@@ -11,8 +11,7 @@ if (isset($_GET['name'])) {
         <title>XSS refletido</title>
     </head>
     <body>
-        <!-- <h1>Olá, < ?php echo $name;?>!</h1> -->
-        <h1>Olá, <?php echo htmlspecialchars($name);?>!</h1>
+        <h1>Olá, <?php echo $name;?>!</h1>
         <form method="get" action="">
             <label for="name">Digite seu nome:</label>
             <input type="text" name="name" id="name">
