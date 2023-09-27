@@ -1,7 +1,7 @@
 # Lab-XSS
 Esté é um simples laboratório desenvolvido usando HTML, JavaScript, PHP e SQL, que é intencionalmente vulnerável a XSS.
 
-Este repositório foi feito para armazenar o código usado no artigo: 
+Este repositório foi feito para armazenar o código usado no artigo: [XSS: definição, tipos e exploração](https://medium.com/@josianebarros/xss-definição-tipos-e-exploração-e74ef57de059)
 
 # Requisitos
 Ter o XAMPP instalado.
